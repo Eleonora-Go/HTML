@@ -1,0 +1,445 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Arial';
+}
+
+.head {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    color: #fff;
+}
+
+.head:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.bloc-head {
+    float: left;
+    width: 600px;
+}
+
+.header-article {
+    margin: 0 0 10px 0;
+    font-size: 60px;
+}
+
+.img-header {
+    float: right;
+}
+
+.item-header {
+    padding: 0 0 0 30px;
+    list-style-type: none;
+}
+
+.list {
+    position: relative;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.list:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left: -25px;
+    background-image: url('../img/Tick_Mark-128.png');
+    background-size: cover;
+}
+
+.product {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+    min-height: 245px;
+}
+
+.H2 {
+    color: #445161;
+    float: left;
+    width: 649px;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.text {
+    float: left;
+    width: 649px;
+    margin: 0 0 20px 0;
+}
+
+.img-video {
+    margin: 0 0 0 97px;
+}
+
+.dignity {
+    padding: 50px;
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 345px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+details > summary {
+    list-style: none;
+}
+
+.dignity-titel {
+    font-size: 30px;
+    color: #445161;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+.context {
+    position: relative;
+    outline: none;
+    margin: 0 10px 20px 0;
+}
+
+.context:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #445161;
+    ;
+    color: #fff;
+    position: absolute;
+    top: +3px;
+    left: -40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+details[open] summary:before {
+    content: "-";
+}
+
+.h2-centor {
+    text-align: center;
+    font-size: 30px;
+    color: #445161;
+    margin: 0 0 30px 0;
+}
+
+.digity-context {
+    width: 50%;
+}
+
+.dignity-item {
+    margin: 0 0 0 50px;
+    width: 93%;
+    box-sizing: border-box;
+}
+
+.alignment {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.screenshorts {
+    padding: 50px;
+    width: 100%;
+    min-height: 487px;
+    box-sizing: border-box;
+}
+
+.screenshorts:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.screen {
+    text-align: center;
+    color: #445161;
+    margin: 0 0 35px 0;
+}
+
+.h3 {
+    margin: 0 0 15px 0;
+    color: #445161;
+}
+
+.screen-figure {
+    float: left;
+    width: 50%;
+    margin: 0 0 30px 0;
+}
+
+.screen-figure:nth-child(3),
+.screen-figure:nth-child(4) {
+    margin: 0;
+}
+
+.screen-img {
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.back {
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.Reviews {
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: #f5f5f5;
+    width: 100%;
+    min-height: 434px;
+}
+
+.review-info {
+    float: left;
+    width: 565px;
+}
+
+.review-info:nth-child(4),
+.review-info:nth-child(5) {
+    margin: 24px 0 0 0;
+}
+
+.avatar-circl {
+    float: left;
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    ;
+    border-radius: 50%;
+}
+
+.review-txt {
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin: 0 0 0 100px;
+    padding: 14px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.review-txt:before {
+    content: "";
+    display: block;
+    border: 16px solid transparent;
+    border-right: 14px solid #ccc;
+    position: absolute;
+    top: 20px;
+    left: -29px;
+}
+
+.review-item-author {
+    display: block;
+    margin: 5px 0 0 0;
+    color: #989898;
+}
+
+.review-info:nth-child(3),
+.review-info:nth-child(4) {
+    float: right;
+}
+
+.review-info:nth-child(3) {
+    margin: 0 0 0 0;
+}
+
+.buy-now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    min-height: 656px;
+}
+
+.buy-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #445161;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.buy-item {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #445161;
+    /*border: 1px solid #445161;*/
+    border-radius: 10px;
+}
+
+.buy-item:nth-child(2) {
+    margin: 0 0 0 100px;
+    height: 306px;
+    align-self: flex-end;
+}
+
+.buy-item:nth-child(3) {
+    height: 404px;
+    align-self: flex-end;
+}
+
+.buy-item:nth-child(4) {
+    margin: 0 100px 0 0;
+    height: 499px;
+    align-self: flex-end;
+}
+
+.section {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.price {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 71px;
+    background-color: #ffffff;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #445162;
+}
+
+.scroll {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.buy {
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #445161;
+}
+
+.buy:active {
+    color: darkcyan;
+    background: rgb(192, 192, 192);
+    box-shadow: 0 -3px rgb(192, 192, 192) inset;
+}
+
+.footer {
+    height: 508px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+}
+
+.footer-arnicl {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+.contacts {
+    float: left;
+    width: 505px;
+    margin: 0 0 0 200px;
+    height: 375px;
+}
+
+.name,
+.email {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    border-radius: 5px;
+    margin: 0 0 22px 0;
+    width: 500px;
+    height: 40px;
+}
+
+.message {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #445162;
+    border-radius: 5px;
+    margin: 0 0 22px 0;
+    width: 500px;
+    height: 170px;
+}
+
+.send {
+    background-color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #445162;
+    border-radius: 5px;
+    height: 40px;
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+.information {
+    margin: 0 120px 0 0;
+    float: right;
+    width: 300px;
+    height: 375px;
+}
+
+.info {
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+}
+.copyright{
+    color: #445162;
+    text-align: center;
+    height: 26px;
+    background-color: #f5f5f5;
+    padding-top: 4px;
+    margin: 0 auto;
+}
